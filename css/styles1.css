@@ -1,0 +1,49 @@
+body,header{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/backgrounds.gif);
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  overflow-x: hidden;
+
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container{
+    margin-left: 36%;
+    margin-right: 33%;
+    margin-top: 3%;
+    border: 5px solid gray;
+    padding: 10px;
+    background-color: white;
+    font-size: 20px;
+   
+}
+
+span.psw {
+  float: right;
+  padding-top: 5px;
+}
+
